@@ -1,26 +1,33 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+
+// Components
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import Contact from './components/Contact';
+// import Project from './components/Project';
+
+// Pages
+import Welcome from './pages/Welcome';
+import AboutMe from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+
 
 const App = () => {
   return (
-    <Router>
+    <main>
       <div>
         <Header />
-        <Switch>
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
-          <Route path="/" component={AboutMe} />
-        </Switch>
+        <Routes>
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/" element={<Welcome />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/aboutme" element={<AboutMe />}/>
+        </Routes>
         <Footer />
       </div>
-    </Router>
+    </main>
   );
 };
 

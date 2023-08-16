@@ -3,9 +3,9 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <section>
-      {/* About Me content */}
-    </section>
+    <main>
+      <h1>Describe yourself</h1>
+    </main>
   );
 };
 
