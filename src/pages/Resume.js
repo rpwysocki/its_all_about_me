@@ -4,7 +4,7 @@ import React from 'react';
 const Resume = () => {
   return (
     <div>
-      <h1>Add a copy of resume</h1>
+      <h1 className='text-center'>Resume Coming Soon!</h1>
     </div>
   );
 };
