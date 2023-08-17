@@ -1,9 +1,16 @@
 // AboutMe.js
 import React from 'react';
+import underwater1 from '../assets/images/underwater1.jpg'
 
 const AboutMe = () => {
   return (
-    <div className='bg-color'>
+    <div style={{
+      backgroundImage: `url(${underwater1})`, backgroundPosition: 'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+      width: '100vw',
+      height: '100vh'
+    }}>
       <div>
         <h3 className='about'>
           I am an adventurer. I have lived the life I wanted to live. I have traveled and experienced the world.  Up until now I have always had physical, outdoors type careers.  As I settle down, I am looking to grow in something I did in the past. I went to school for web development and business programming in 2001, my resume was out shadowed by misplaced experience after the 9/11 attacks.
