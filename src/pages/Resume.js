@@ -3,9 +3,9 @@ import React from 'react';
 
 const Resume = () => {
   return (
-    <main>
+    <div>
       <h1>Add a copy of resume</h1>
-    </main>
+    </div>
   );
 };
 
