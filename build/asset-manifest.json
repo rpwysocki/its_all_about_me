@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2a5024e4.css",
+    "main.js": "/static/js/main.71704db8.js",
+    "static/media/selfie.jpg": "/static/media/selfie.09f8248e9a348112b195.jpg",
+    "static/media/underwater.jpg": "/static/media/underwater.807e2f8719750f651dad.jpg",
+    "static/media/underwater1.jpg": "/static/media/underwater1.676763b83eb0fb64ae22.jpg",
+    "index.html": "/index.html",
+    "main.2a5024e4.css.map": "/static/css/main.2a5024e4.css.map",
+    "main.71704db8.js.map": "/static/js/main.71704db8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a5024e4.css",
+    "static/js/main.71704db8.js"
+  ]
+}
