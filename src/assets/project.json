@@ -28,7 +28,8 @@
         "title": "Good Vibes Feed",
         "description": "Group project of 5 student developers creating a MERN REST API. ",
         "link":"https://github.com/mcgrane18482/good_vibes_feed",
-        "image": "/images/404.png"
+        "image": "/images/404.png",
+        "deployed_link": "https://good-vibes-feed-0f727cb91a84.herokuapp.com/"
     },
     {
         "title": "SQL My Employees",
