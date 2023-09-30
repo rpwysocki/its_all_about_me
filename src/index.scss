@@ -17,6 +17,7 @@ code {
 // Global style
 HTML, body {
   height: 100%;
+  display: flex;
 }
 
 .row,
@@ -130,7 +131,7 @@ footer {
 
 // Portfolio page
 .bg-color {
-  background-color: aqua;
+  background-color: rgb(9, 154, 154);
 }
 
 // About me page
