@@ -1,47 +1,47 @@
 [
     {
-        "title": "Weather Dashboard",
         "description": "Weather API site that displays current and 5-day forecast with storage to recall past searches.",
+        "image": "./images/weather.png",
         "link": "https://github.com/rpwysocki/weather_dashboard",
-        "image": "/images/weather.png"
+        "title": "Weather Dashboard"
     },
     {
-        "title": "Interview Code Quiz",
         "description": "A timed coding quiz that 75 seconds to answer questions and reduces faster with incorrect answers",
-        "link":"https://github.com/rpwysocki/interview_code_quiz",
-        "image": "/images/Code_Quiz.jpg"
+        "image": "./images/Code_Quiz.jpg",
+        "link": "https://github.com/rpwysocki/interview_code_quiz",
+        "title": "Interview Code Quiz"
     },
     {
-        "title": "Blog IT Here",
         "description": "Back-end code for a tech related social media network with CRUD functionality for users and posts. Built with node.js, mongodb, and mongoose",
+        "image": "./images/404.png",
         "link": "https://github.com/rpwysocki/Blog_IT_here",
-        "image": "/images/404.png"
+        "title": "Blog IT Here"
     },
     {
-        "title": "Note Taker App",
+        "deployed_link": "https://this-note-app-f444bf8d0d48.herokuapp.com/",
         "description": "App developed to take notes, store and display them on the page.",
-        "link":"https://github.com/rpwysocki/Note_Taker",
-        "image": "/images/NoteTaker2.jpg",
-        "deployed_link": "https://this-note-app-f444bf8d0d48.herokuapp.com/"
+        "image": "./images/NoteTaker2.jpg",
+        "link": "https://github.com/rpwysocki/Note_Taker",
+        "title": "Note Taker App"
     },
     {
-        "title": "Good Vibes Feed",
+        "deployed_link": "https://good-vibes-feed-0f727cb91a84.herokuapp.com/",
         "description": "Group project of 5 student developers creating a MERN REST API. ",
-        "link":"https://github.com/mcgrane18482/good_vibes_feed",
-        "image": "/images/404.png",
-        "deployed_link": "https://good-vibes-feed-0f727cb91a84.herokuapp.com/"
+        "image": "./images/404.png",
+        "link": "https://github.com/mcgrane18482/good_vibes_feed",
+        "title": "Good Vibes Feed"
     },
     {
-        "title": "SQL My Employees",
+        "deployed_link": "https://drive.google.com/file/d/1Gb1JtGo66epCMdd94AcP4nTRuPE8H1LT/view",
         "description": "An SQL database to track employees.",
-        "link":"https://github.com/rpwysocki/SQL_MyEmployees",
-        "image": "/images/SQL.png",
-        "deployed_link": "https://drive.google.com/file/d/1Gb1JtGo66epCMdd94AcP4nTRuPE8H1LT/view"
+        "image": "./images/SQL.png",
+        "link": "https://github.com/rpwysocki/SQL_MyEmployees",
+        "title": "SQL My Employees"
     },
     {
-        "title": "Pomo Focus",
         "description": "Group project of 5 students the created PomoFocus, a productivity app that helps you stay focused, manage tasks effectively, and boost your productivity using the Pomodoro Technique. ",
-        "link":"https://github.com/MKYRENE/pomo_focus",
-        "image": "/images/pomo.png"
+        "image": "./images/pomo.png",
+        "link": "https://github.com/MKYRENE/pomo_focus",
+        "title": "Pomo Focus"
     }
 ]
