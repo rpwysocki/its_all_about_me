@@ -50,7 +50,7 @@ main {
 }
 
 
-// Header page
+// Header
 header {
   background-color: lightgrey;
   height: 100%;
@@ -88,7 +88,7 @@ header {
   }
 }
 
-// Footer page
+// Footer
 footer {
   background-color: lightgrey;
   position: relative;
@@ -106,10 +106,10 @@ footer {
 
 
 
-// Project page
+// Projects
 
 .project {
-  // margin: 3%;
+  margin: 3%;
   columns: 2;
     // grid-auto-rows: auto;
     display: flex;
@@ -139,6 +139,12 @@ footer {
   margin: 4px;
   padding: 5% 10% 0 10%;
   
+}
+
+// Resume page
+.resume {
+  margin: 4px;
+  padding: 5% 10% 0 10%;
 }
 
 // Custom styling
