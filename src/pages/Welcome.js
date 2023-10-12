@@ -12,7 +12,7 @@ const Welcome = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         width: '100%',
-        height: '100vh'
+        height: '100%'
       }}>
         <h1 className="text-center white">
           Welcome to my portfolio.  Please take a look around and learn a little about me, what I have done, and how I work.</h1>
