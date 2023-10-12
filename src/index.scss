@@ -15,7 +15,8 @@ code {
 
 
 // Global style
-HTML, body {
+HTML,
+body {
   height: 100%;
   display: flex;
 }
@@ -111,10 +112,14 @@ footer {
 .project {
   margin: 3%;
   columns: 2;
-    // grid-auto-rows: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  // grid-auto-rows: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &:hover {
+    background-color: white;
+  }
 }
 
 .card {
@@ -127,9 +132,6 @@ footer {
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 4px;
-  &:hover {
-    background-color: white;
-  }
 }
 
 // Portfolio page
@@ -142,7 +144,7 @@ footer {
 .about {
   margin: 4px;
   padding: 5% 10% 0 10%;
-  
+
 }
 
 // Resume page
@@ -158,4 +160,3 @@ footer {
   margin-right: auto;
   width: 50%;
 }
-
